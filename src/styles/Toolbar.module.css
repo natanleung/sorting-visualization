@@ -1,0 +1,32 @@
+/* Classes */
+
+.toolbar {
+    border: solid lightgray;
+    padding: 1% 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numberInput {
+    caret-color: transparent;
+}
+
+.rangeInput {
+    accent-color: lightgray;
+    vertical-align: middle;
+}
+
+/* At-rules */
+
+@media screen and (max-width: 768px) {
+    /* Mobile devices */
+
+    .toolbar {
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+}

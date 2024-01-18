@@ -1,0 +1,33 @@
+/* Classes */
+
+.listblock {
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+    margin-top: 1%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.elementblock {
+    background-color: lightgray;
+    flex-grow: 1;
+    margin: 0 2px;
+}
+
+.swapping {
+    background-color: gray;
+}
+
+/* At-rules */
+
+@media screen and (max-width: 768px) {
+    /* Mobile devices */
+
+    .elementblock {
+        margin: 0;
+    }
+}
